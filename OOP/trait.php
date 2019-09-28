@@ -16,7 +16,7 @@ trait Butter
     }
 }
 
-class Toaster
+final class Toaster // Этот класс нельзя унаследовать
 {
     use Jam,
     Butter {
